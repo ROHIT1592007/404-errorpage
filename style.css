@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+::selection{
+    color: darkred;
+}
+
+body{
+    background-color: rgb(143, 140, 140);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-page h3{
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.error-page h3:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+.error-page p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.error-page .links a{
+    color: rgb(255, 208, 0);
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 850px;
+}
+
+.error-page .links a:hover{
+    cursor: pointer;
+    color: darkred;
+}
+
+.card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px){
+    .error-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        width: 250px;
+    }
+}
